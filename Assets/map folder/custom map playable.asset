@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e5d8b31fed2d00044a1e90b25e9af60a, type: 3}
-  m_Name: New PlayableMap
+  m_Name: custom map playable
   m_EditorClassIdentifier: 
   title: custom defuilt map
   preview: {fileID: 21300000, guid: d597d2b91cfae2f4ca787b3e496f3954, type: 3}
