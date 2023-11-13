@@ -18,7 +18,7 @@ TextureImporter:
       213: -501271331140484041
     second: koboldsheet_4
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -78,6 +78,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -111,6 +112,18 @@ TextureImporter:
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -234,11 +247,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      koboldsheet_1: 8193220655048522440
-      koboldsheet_4: -501271331140484041
       koboldsheet_0: 3537277183117484593
+      koboldsheet_1: 8193220655048522440
       koboldsheet_2: 8496909133574245803
       koboldsheet_3: -3343030271592371608
+      koboldsheet_4: -501271331140484041
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
