@@ -1185,11 +1185,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 215233885836464150
-    m_Localized: Welcome! Looking to buy some seeds? We've got kobold eggs too!
+    m_Localized: Hi
     m_Metadata:
       m_Items: []
   - m_Id: 215233885836464151
-    m_Localized: Need help finding something?
+    m_Localized: Buy somthing or leave
     m_Metadata:
       m_Items: []
   - m_Id: 215233885836464152
@@ -1419,6 +1419,10 @@ MonoBehaviour:
   - m_Id: 342423402461405184
     m_Localized: There was an exception loading a mod, this may break the game. Please
       double check your mods.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 378528403250610176
+    m_Localized: Debug Text Replace Me
     m_Metadata:
       m_Items: []
   references:

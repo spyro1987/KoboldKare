@@ -1331,6 +1331,10 @@ MonoBehaviour:
     m_Key: MOD_LOADING_FAILED_DESCRIPTION
     m_Metadata:
       m_Items: []
+  - m_Id: 378528403250610176
+    m_Key: test
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

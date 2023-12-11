@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: custume defult map catalog
   m_EditorClassIdentifier: 
   assetGroups:
-  - {fileID: 11400000, guid: ca5e166ff144f0142b10d0ba158b42fb, type: 2}
-  buildPath: '[UnityEngine.Application.persistentDataPath]/mods/Monarchs Custom Defult
+  - {fileID: 11400000, guid: 1b26dff066069a441ad0f0f3b68d1fb4, type: 2}
+  buildPath: '[UnityEngine.Application.persistentDataPath]/mods/Monarchs Custom Default
     map/[BuildTarget]'
   runtimeLoadPath: '{ModManager.currentLoadingMod}/[BuildTarget]'
   catalogName: Monarchs Custom Default map
