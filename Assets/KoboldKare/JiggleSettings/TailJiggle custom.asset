@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TailJiggle custom
   m_EditorClassIdentifier: 
   gravityMultiplier: 0.2
-  friction: 0.3
+  friction: 0.2
   angleElasticity: 0.2
   blend: 1
   airDrag: 0.4
