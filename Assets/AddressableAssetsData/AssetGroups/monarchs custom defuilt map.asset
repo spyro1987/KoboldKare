@@ -18,7 +18,7 @@ MonoBehaviour:
   m_GUID: b523a465d84f2cc428db7df06fd605e9
   m_SerializeEntries:
   - m_GUID: 708c60ef18c02ca4fabb5de5ebdd5937
-    m_Address: MainMap 1
+    m_Address: Assets/map folder/Main Map customized.unity
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
