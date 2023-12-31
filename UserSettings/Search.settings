@@ -10,6 +10,9 @@ scopes = {
 	"last_search.B655092D" = "st: poss"
 	"OpenInspectorPreview.B655092D" = "0"
 	"currentGroup.B655092D" = "all"
+	"last_search.DD5CDDE4" = "rigidbody"
+	"OpenInspectorPreview.DD5CDDE4" = "0"
+	"currentGroup.DD5CDDE4" = "menu"
 }
 providers = {
 	at = {
@@ -66,6 +69,7 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"rigidbody"
 	"alias{}"
 	"P"
 ]
