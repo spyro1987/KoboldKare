@@ -18,7 +18,7 @@ MonoBehaviour:
   m_GUID: b523a465d84f2cc428db7df06fd605e9
   m_SerializeEntries:
   - m_GUID: 708c60ef18c02ca4fabb5de5ebdd5937
-    m_Address: Assets/map folder/Main Map customized.unity
+    m_Address: Main Map customized
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -27,6 +27,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - PlayableMap
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 614e1e0e74827264f982df882b9d0d58
+    m_Address: audio for custom defuilt map
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: bae434cba05d81d4b9cb5c181a2fbf2c, type: 2}
