@@ -524,7 +524,8 @@ MonoBehaviour:
   body: {fileID: 0}
   bellyInflater:
     bounce: {fileID: 11400000, guid: 8bb8ec1eabdcb7043a4605858f604a8a, type: 2}
-    listeners: []
+    listeners:
+    - rid: 6783265597894950913
   fatnessInflater:
     bounce: {fileID: 11400000, guid: e18312d1b399ef44cbae03acd0a32afb, type: 2}
     listeners:
@@ -574,6 +575,13 @@ MonoBehaviour:
       type: {class: InflatableBlendShape, ns: Naelstrof.Inflatable, asm: com.naelstrof.inflatable}
       data:
         blendShapeName: CSTM_Fat
+        skinnedMeshRenderers:
+        - {fileID: 4095239331484180769}
+        clamped: 0
+    - rid: 6783265597894950913
+      type: {class: InflatableBlendShape, ns: Naelstrof.Inflatable, asm: com.naelstrof.inflatable}
+      data:
+        blendShapeName: CSTM_BellySize
         skinnedMeshRenderers:
         - {fileID: 4095239331484180769}
         clamped: 0
@@ -4317,7 +4325,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 17f3b192f191f7a48ade86ae111ea222, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
