@@ -126,12 +126,16 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7a5586c9783d1f6479cc81a93d16d4d6, type: 2}
   - {fileID: 11400000, guid: 32641dfdf6c5f5f438bb97b5afe05077, type: 2}
   - {fileID: 11400000, guid: 37a7685362aeb8f4eaa303f3d7a5614d, type: 2}
+<<<<<<< HEAD
   - {fileID: 11400000, guid: ca5e166ff144f0142b10d0ba158b42fb, type: 2}
   - {fileID: 11400000, guid: 88ab33b1ae10764449637c83c1ad24b0, type: 2}
   - {fileID: 11400000, guid: 4e57547ccfb70e44196710807b5ee384, type: 2}
   - {fileID: 11400000, guid: 1b26dff066069a441ad0f0f3b68d1fb4, type: 2}
   - {fileID: 11400000, guid: cf36219b953e8a042afa1c2a7cdb8dcf, type: 2}
   - {fileID: 11400000, guid: 497657159c41310479e72d5f0162cf60, type: 2}
+=======
+  - {fileID: 11400000, guid: e2c73d0ae51e9c649b7394fc1b708de1, type: 2}
+>>>>>>> upstream/master
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1

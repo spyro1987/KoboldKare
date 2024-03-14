@@ -15,11 +15,27 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-Danish
   m_Data:
     m_SerializedData: []
+<<<<<<< HEAD
   m_GUID: 29e35692278fde949bd1e0f067b2abb8
   m_SerializeEntries: []
+=======
+  m_GUID: 62961a1127b94b84cbec22604f3d8188
+  m_SerializeEntries:
+  - m_GUID: 2ea58164d6cab124c9329900ddcccedf
+    m_Address: StringDatabase_da
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-da
+    FlaggedDuringContentUpdateRestriction: 0
+>>>>>>> upstream/master
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: bae434cba05d81d4b9cb5c181a2fbf2c, type: 2}
   m_SchemaSet:
     m_Schemas:
+<<<<<<< HEAD
     - {fileID: 11400000, guid: cc6ab5629a77eba45a113baeebb9571a, type: 2}
     - {fileID: 11400000, guid: 6a10747b0a8e6ee41998769590ae0c75, type: 2}
+=======
+    - {fileID: 11400000, guid: 7130f0d4e566cea44ba1450e8be47eb9, type: 2}
+    - {fileID: 11400000, guid: 9dad3c288fbf0494fba2f11c12fe0496, type: 2}
+>>>>>>> upstream/master
