@@ -102,7 +102,7 @@ MonoBehaviour:
     - Locale
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 431ffa7baa5576942a40d93a963b2e67
-    m_Address: Korean (ko)
+    m_Address: Korean
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
