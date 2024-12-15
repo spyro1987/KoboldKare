@@ -12,9 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5834b5087d578d24c926ce20cd31e6d6, type: 3}
   m_Name: Localization-String-Tables-Danish_ContentUpdateGroupSchema
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  m_Group: {fileID: 11400000, guid: 4e57547ccfb70e44196710807b5ee384, type: 2}
-=======
   m_Group: {fileID: 11400000, guid: e2c73d0ae51e9c649b7394fc1b708de1, type: 2}
->>>>>>> upstream/master
   m_StaticContent: 0

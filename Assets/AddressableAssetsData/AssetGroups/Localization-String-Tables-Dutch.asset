@@ -15,7 +15,7 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-Dutch
   m_Data:
     m_SerializedData: []
-  m_GUID: e1d8699a05119014f931b7d5360df339
+  m_GUID: 42d596d752e6e0145aa729260f81a01b
   m_SerializeEntries:
   - m_GUID: f0cde553a62248c4eb92722305b748f4
     m_Address: StringDatabase_nl
@@ -27,5 +27,5 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: bae434cba05d81d4b9cb5c181a2fbf2c, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 57092f4cc15b57b4d9228c19eef8f996, type: 2}
-    - {fileID: 11400000, guid: 817be6c99a9cd5947b05c5f2119374ec, type: 2}
+    - {fileID: 11400000, guid: f37dcd913cd8e5842992cee91e9d66e5, type: 2}
+    - {fileID: 11400000, guid: 571b8b3f172f2e9449ae6a9e2c85ce00, type: 2}

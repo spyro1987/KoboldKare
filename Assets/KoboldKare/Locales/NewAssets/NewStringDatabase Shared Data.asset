@@ -1331,38 +1331,6 @@ MonoBehaviour:
     m_Key: MOD_LOADING_FAILED_DESCRIPTION
     m_Metadata:
       m_Items: []
-  - m_Id: 378528403250610176
-    m_Key: POSSUM_DIALOGUE_
-    m_Metadata:
-      m_Items: []
-  - m_Id: 378597020507963392
-    m_Key: New Entry
-    m_Metadata:
-      m_Items: []
-  - m_Id: 378597212594503680
-    m_Key: New Entry 1
-    m_Metadata:
-      m_Items: []
-  - m_Id: 378597216558120960
-    m_Key: New Entry 2
-    m_Metadata:
-      m_Items: []
-  - m_Id: 378597218495889408
-    m_Key: New Entry 3
-    m_Metadata:
-      m_Items: []
-  - m_Id: 378597219724820480
-    m_Key: New Entry 4
-    m_Metadata:
-      m_Items: []
-  - m_Id: 378597220664344576
-    m_Key: New Entry 5
-    m_Metadata:
-      m_Items: []
-  - m_Id: 378598006349758464
-    m_Key: New Entry 6
-    m_Metadata:
-      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

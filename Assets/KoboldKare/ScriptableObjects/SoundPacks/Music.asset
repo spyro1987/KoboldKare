@@ -22,6 +22,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: d7122b8bdb3abd341ac74a7e95559aca, type: 3}
   - {fileID: 8300000, guid: 42dc00a8c1fc1704eb8fa3fc254907a6, type: 3}
   - {fileID: 8300000, guid: 4cf6a9f82df6f0047a780fb9564c215d, type: 3}
-  volume: 0
+  volume: 1
   group: {fileID: 243120066433540876, guid: bc155dfdccec1be4780029a8bd542de5, type: 2}
   pitchRange: 0
