@@ -512,6 +512,7 @@ MonoBehaviour:
     ragdollAttachBody: {fileID: 0}
     isFemaleExclusiveAnatomy: 0
     canLayEgg: 1
+    isSelfPenetrableOnRagdoll: 0
   attachPoints:
   - attachPoint: 0
     targetTransform: {fileID: 1870312202928952822}

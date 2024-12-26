@@ -18,8 +18,7 @@ MonoBehaviour:
   m_GUID: 5a8f25062bb79274e923641bdfd13559
   m_SerializeEntries:
   - m_GUID: 39132bedb76f33b4e9e315a06b00828c
-    m_Address: Assets/best boy prefab/Best Boi High-Def Edition/bestboi custom varient
-      2.prefab
+    m_Address: bestboi custom varient 2
     m_ReadOnly: 0
     m_SerializedLabels:
     - PlayableCharacter
