@@ -28,10 +28,11 @@
       "dependencies": {}
     },
     "com.naelstrof.extensions": {
-      "version": "file:com.naelstrof.extensions",
+      "version": "https://github.com/naelstrof/com.naelstrof.extensions.git#v0.0.2",
       "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {},
+      "hash": "36cbdb2cf2ced30bcb0cce07ec2284986b199c0b"
     },
     "com.naelstrof.inflatable": {
       "version": "file:com.naelstrof.inflatable",
@@ -150,16 +151,6 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.animation.rigging": {
-      "version": "1.1.1",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.burst": "1.4.1",
-        "com.unity.test-framework": "1.1.24"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.burst": {
       "version": "1.8.2",
       "depth": 1,
@@ -181,13 +172,13 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.timeline": "1.5.2",
-        "com.autodesk.fbx": "4.1.2"
+        "com.autodesk.fbx": "4.1.2",
+        "com.unity.timeline": "1.5.2"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "3.0.27",
+      "version": "3.0.34",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -235,26 +226,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.postprocessing": {
-      "version": "3.2.2",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.physics": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.probuilder": {
-      "version": "5.0.7",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.settings-manager": "1.0.3",
-        "com.unity.modules.physics": "1.0.0",
-        "com.unity.modules.imgui": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.render-pipelines.core": {
       "version": "12.1.10",
       "depth": 0,
@@ -290,13 +261,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.settings-manager": {
-      "version": "1.0.3",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
     "com.unity.shadergraph": {
       "version": "12.1.10",
       "depth": 1,
@@ -305,33 +269,6 @@
         "com.unity.render-pipelines.core": "12.1.10",
         "com.unity.searcher": "4.9.1"
       }
-    },
-    "com.unity.sysroot": {
-      "version": "2.0.7",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.sysroot.linux-x86_64": {
-      "version": "2.0.6",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.sysroot": "2.0.7"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.test-framework": {
-      "version": "1.1.31",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ext.nunit": "1.0.6",
-        "com.unity.modules.imgui": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
       "version": "file:com.unity.textmeshpro",
@@ -346,20 +283,10 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {
+        "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.director": "1.0.0",
         "com.unity.modules.animation": "1.0.0",
-        "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.particlesystem": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.toolchain.win-x86_64-linux-x86_64": {
-      "version": "2.0.6",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.sysroot": "2.0.7",
-        "com.unity.sysroot.linux-x86_64": "2.0.6"
       },
       "url": "https://packages.unity.com"
     },

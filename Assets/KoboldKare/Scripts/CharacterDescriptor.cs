@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.VFX;
 using System.Collections;
 using System.Threading.Tasks;
+using JigglePhysics;
 using NetStack.Serialization;
 using Photon.Pun;
 using UnityEngine.AddressableAssets;
@@ -169,6 +170,19 @@ public class CharacterDescriptor : MonoBehaviour, IPunInstantiateMagicCallback {
             lodGroup = gameObject.AddComponent<LODGroup>();
             lodGroup.SetLODs(new[] { new LOD(0.01f, bodyRenderers.ToArray()) });
         }
+        
+        //foreach (JiggleRigBuilder builder in GetComponentsInChildren<JiggleRigBuilder>()) {
+            //if (builder.GetComponent<JiggleRigRendererLOD>() == null) {
+                //var lod = builder.gameObject.AddComponent<JiggleRigRendererLOD>();
+                //lod.SetRenderers(bodyRenderers.ToArray());
+            //}
+        //}
+        //foreach (JiggleSkin skin in GetComponentsInChildren<JiggleSkin>()) {
+            //if (skin.GetComponent<JiggleRigRendererLOD>() == null) {
+                //var lod = skin.gameObject.AddComponent<JiggleRigRendererLOD>();
+                //lod.SetRenderers(bodyRenderers.ToArray());
+            //}
+        //}
 
         kobold = GetComponent<Kobold>();
         body.mass = 25f;
