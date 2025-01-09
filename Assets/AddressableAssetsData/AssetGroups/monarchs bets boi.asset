@@ -18,10 +18,9 @@ MonoBehaviour:
   m_GUID: 858795aa1a2a15a48a7aadbef0bc9665
   m_SerializeEntries:
   - m_GUID: 47069c1c4943e6d4c8662752c68cf433
-    m_Address: Assets/best boy prefab/Best Boi High-Def Edition/bestboi.prefab
+    m_Address: bestboi
     m_ReadOnly: 0
-    m_SerializedLabels:
-    - PlayableCharacter
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: bae434cba05d81d4b9cb5c181a2fbf2c, type: 2}
