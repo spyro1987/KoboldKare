@@ -176,9 +176,16 @@ public class CharacterDescriptor : MonoBehaviour, IPunInstantiateMagicCallback {
                 // reverse-compatiblity for old mods, force animated to true, costs a little performance, oh well!
                 jiggleRig.animated = true;
             }
+
+            // skip tails and other things that have ragdoll properties for LODDING.
+            var ragdoller = GetComponent<Ragdoller>();
+            if (ragdoller != null && ragdoller.GetDisableRigs().Contains(builder)) {
+                continue;
+            }
             if (builder.GetComponent<JiggleRigRendererLOD>() == null) {
                 var lod = builder.gameObject.AddComponent<JiggleRigRendererLOD>();
                 lod.SetRenderers(bodyRenderers.ToArray());
+                lod.SetDistance(25f);
             }
         }
         foreach (JiggleSkin skin in GetComponentsInChildren<JiggleSkin>()) {
@@ -189,6 +196,7 @@ public class CharacterDescriptor : MonoBehaviour, IPunInstantiateMagicCallback {
             if (skin.GetComponent<JiggleRigRendererLOD>() == null) {
                 var lod = skin.gameObject.AddComponent<JiggleRigRendererLOD>();
                 lod.SetRenderers(bodyRenderers.ToArray());
+                lod.SetDistance(25f);
             }
         }
 
