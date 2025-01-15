@@ -20,6 +20,7 @@ public class NetworkManager : SingletonScriptableObject<NetworkManager>, IConnec
     public ServerSettings settings;
     
     public static byte CustomInstantiationEvent = (byte)'C';
+    public static byte CustomCheatEvent = (byte)'H';
 
     public bool online {
         get {
@@ -266,6 +267,7 @@ public class NetworkManager : SingletonScriptableObject<NetworkManager>, IConnec
     }
 
     public void OnCreatedRoom() {
+        cheatsEnabled = false;
         if (SceneManager.GetActiveScene().name != selectedMap.unityScene.GetName()) {
             LevelLoader.instance.LoadLevel((string)selectedMap.unityScene.RuntimeKey);
         }
@@ -348,6 +350,9 @@ public class NetworkManager : SingletonScriptableObject<NetworkManager>, IConnec
     public void OnOwnershipTransferFailed(PhotonView targetView, Player senderOfFailedRequest) {
     }
 
+    private bool cheatsEnabled = false;
+    public bool GetCheatsEnabled() => cheatsEnabled;
+
     public void OnEvent(EventData photonEvent) {
         if (photonEvent.Code == CustomInstantiationEvent) {
             object[] objectData = (object[])photonEvent.CustomData;
@@ -361,6 +366,11 @@ public class NetworkManager : SingletonScriptableObject<NetworkManager>, IConnec
             var photonView = obj.GetComponent<PhotonView>();
             photonView.ViewID = (int)objectData[1];
             obj.SetActive(true);
+            return;
+        }
+
+        if (photonEvent.Code == CustomCheatEvent) {
+            cheatsEnabled = (bool)photonEvent.CustomData;
             return;
         }
 
