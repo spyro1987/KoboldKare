@@ -256,7 +256,8 @@ public static class WordFilter {
 "agd", "jat", "pfo", "wow", "tqu", "rdy", "hda", "rnn", "ipf", "yof", "eyp", "maa", "zec", "uim", "mmy", "woe", "kka", "yew", "tiw", "iby",
 "hoh", "edy", "llg", "orz", "iis", "uon", "kut", "yoh"
 };
-    static Dictionary<char, string> homoglyphs = new() {
+    
+static Dictionary<char, string> homoglyphs = new() {
     { 'a', "₳卂@4AΑАᎪᗅᴀꓮꭺＡ𐊠𖽀𝐀𝐴𝑨𝒜𝓐𝔄𝔸𝕬𝖠𝗔𝘈𝘼𝙰𝚨𝛢𝜜𝝖𝞐aɑαа⍺ａ𝐚𝑎𝒂𝒶𝓪𝔞𝕒𝖆𝖺𝗮𝘢𝙖𝚊𝛂𝛼𝜶𝝰𝞪" },
     { 'b', "乃฿₿Bbʙɓ6bƄЬᏏᑲᖯｂ𝐛𝑏𝒃𝒷𝓫𝔟𝕓𝖇𝖻𝗯𝘣𝙗𝚋ʙΒВвᏴᏼᗷᛒℬꓐꞴＢ𐊂𐊡𐌁𝐁𝐵𝑩𝓑𝔅𝔹𝕭𝖡𝗕𝘉𝘽𝙱𝚩𝛣𝜝𝝗𝞑" },
     { 'c', "匚⟨⟪⟮₵¢ɔ<[{(ccϲсᴄⅽⲥꮯｃ𐐽𝐜𝑐𝒄𝒸𝓬𝔠ς𝕔𝖈𝖼𝗰𝘤𝙘𝚌ϹСᏟᑕℂℭⅭ⊂Ⲥ⸦ꓚＣ𐊢𐌂𐐕𐔜𑣩𑣲𝐂𝐶𝑪𝒞𝓒𝕮𝖢𝗖𝘊𝘾𝙲🝌" },
@@ -290,6 +291,7 @@ public static class WordFilter {
         var character = info.SubstringByTextElements(index, 1);
         if (info.LengthInTextElements > index + 2) {
             var trigramCheck = character + info.SubstringByTextElements(index + 1, 2);
+            trigramCheck = trigramCheck.ToLower();
             bool entirelyComposedOfInvalidLetters = true;
             foreach (var c in trigramCheck) {
                 if (bannedWord.Contains(c)) continue;
@@ -305,6 +307,7 @@ public static class WordFilter {
 
         if (index - 2 >= 0 && info.LengthInTextElements >= 3) {
             var trigramCheck = info.SubstringByTextElements(index - 2, 2) + character;
+            trigramCheck = trigramCheck.ToLower();
             bool entirelyComposedOfInvalidLetters = true;
             foreach (var c in trigramCheck) {
                 if (bannedWord.Contains(c)) continue;
@@ -320,6 +323,7 @@ public static class WordFilter {
     
         if (index - 1 >= 0 && info.LengthInTextElements > index+1) {
             var trigramCheck = info.SubstringByTextElements(index - 1, 1) + character + info.SubstringByTextElements(index + 1, 1);
+            trigramCheck = trigramCheck.ToLower();
             bool entirelyComposedOfInvalidLetters = true;
             foreach (var c in trigramCheck) {
                 if (bannedWord.Contains(c)) continue;
@@ -351,6 +355,9 @@ public static class WordFilter {
         }
         StringInfo info = new StringInfo(name);
         foreach (var word in blacklist) {
+            if (string.IsNullOrEmpty(word)) {
+                continue;
+            }
             int state = 0;
             var enumerator = StringInfo.GetTextElementEnumerator(name);
             while (enumerator.MoveNext()) {
